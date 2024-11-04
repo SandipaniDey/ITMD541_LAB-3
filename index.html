@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <p>Currency conversion:</p>
+        <p>$1 USD = 149.34 JPY for Yen</p>
+        <p>$1 USD = ₹84.07 INR for Rupee</p>
+
+        <form id="tipForm">
+            <!-- Bill total -->
+            <div class="form-group">
+                <label for="billTotal">Bill Total ($):</label>
+                <input type="text" id="billTotal" placeholder="Enter bill amount">
+                <!-- Error message for invalid input -->
+                <span id="error-message" class="error-message"></span>
+            </div>
+
+            <!-- Currency selection -->
+            <div class="form-group">
+                <label for="currency">Select Currency:</label>
+                <select id="currency">
+                    <option value="usd" selected>US Dollars ($)</option>
+                    <option value="jpy">Japanese Yen (¥)</option>
+                    <option value="inr">Indian Rupee (₹)</option>
+                </select>
+            </div>
+
+            <!-- Tip percentage -->
+            <div class="form-group">
+                <label for="tipPercentage">Tip Percentage (%):</label>
+                <input type="range" id="tipPercentage" min="0" max="100" value="0">
+                <span id="tipValue">0%</span>
+            </div>
+
+            <!-- Converted Tip Amount -->
+            <div class="form-group">
+                <label for="convertedTipAmount">Converted Tip Amount:</label>
+                <input type="text" id="convertedTipAmount" disabled>
+            </div>
+
+            <!-- Converted Total with Tip -->
+            <div class="form-group">
+                <label for="totalWithTip">Converted Total Bill with Tip:</label>
+                <input type="text" id="totalWithTip" disabled>
+            </div>
+
+        </form>
+
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
