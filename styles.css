@@ -12,7 +12,7 @@ body {
 .container {
     width: 50%;
     margin: 20px 0 0 20px; /* Aligns to top-left corner */
-    background-color: #545252;
+    background-color: #8a8484;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
