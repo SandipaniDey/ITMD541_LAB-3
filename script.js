@@ -14,7 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const conversionRates = {
         usd: 1,
         jpy: 149.34,
-        inr: 84.07
+        inr: 84.07,
+        rub: 97.73,
+        eur: 0.92
     };
  
     // Function to validate bill total input

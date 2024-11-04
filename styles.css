@@ -8,19 +8,6 @@ body {
     padding: 0;
 }
 
-/* Title Section Styling */
-.title-section {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.title-section h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
 /* Container Styling */
 .container {
     width: 50%;
@@ -29,6 +16,19 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.currency-info {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    max-width: 200px;
 }
 
 h3 {

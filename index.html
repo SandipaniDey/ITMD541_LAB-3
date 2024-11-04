@@ -11,9 +11,14 @@
     <div class="container">
         <h3>ITMD 541 - LAB 3 - SANDIPANI DEY</h3>
         <h2>Tip Calculator</h2>
-        <p>Currency conversion:</p>
-        <p>$1 USD = 149.34 JPY for Yen</p>
-        <p>$1 USD = ₹84.07 INR for Rupee</p>
+        <!-- Currency Conversion Tab -->
+        <div class="currency-info">
+            <p><strong>Currency Conversion:</strong></p>
+            <p>$1 USD = ₹84.07 INR for Rupee</p>
+            <p>$1 USD = ¥149.34 JPY for Yen</p>
+            <p>$1 USD = ₽97.73 RUB for Ruble</p>
+            <p>$1 USD = €0.92 RUB for Euro</p>
+        </div>
 
         <form id="tipForm">
             <!-- Bill total -->
@@ -31,6 +36,8 @@
                     <option value="usd" selected>US Dollars ($)</option>
                     <option value="jpy">Japanese Yen (¥)</option>
                     <option value="inr">Indian Rupee (₹)</option>
+                    <option value="inr">Russian Ruble (₽)</option>
+                    <option value="inr">European Euro (€)</option>
                 </select>
             </div>
 
