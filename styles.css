@@ -8,23 +8,36 @@ body {
     padding: 0;
 }
 
+/* Title Section Styling */
+.title-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-section h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
 /* Container Styling */
 .container {
     width: 50%;
-    margin: 20px 0 0 20px; /* Aligns to top-left corner */
+    margin: 20px auto; /* Centered on desktop */
     background-color: #d3d3d3;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
-    text-align: center; /* Center-aligns the heading */
+    text-align: center; /* center-aligns the heading */
     font-size: 20px;
 }
 
 h2 {
-    text-align: center; /* Center-aligns the heading */
+    text-align: center; /* center-aligns the heading */
     font-size: 25px;
 }
 
@@ -71,12 +84,12 @@ input[disabled] {
     }
 
     h3 {
-        font-size: 15px; /* Smaller heading on mobile */
+        font-size: 18px; /* Smaller heading on mobile */
         text-align: center; /* Ensure heading is center-aligned on mobile too */
     }
 
     h2 {
-        font-size: 20px; /* Smaller heading on mobile */
+        font-size: 22px; /* Smaller heading on mobile */
         text-align: center; /* Ensure heading is center-aligned on mobile too */
     }
 
