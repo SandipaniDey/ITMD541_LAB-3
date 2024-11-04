@@ -3,7 +3,7 @@
 /* General Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #ef8383;
+    background-color: #9c9292;
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 .container {
     width: 50%;
     margin: 20px 0 0 20px; /* Aligns to top-left corner */
-    background-color: #8a8484;
+    background-color: #9e6666;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
