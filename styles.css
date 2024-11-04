@@ -24,7 +24,7 @@ body {
 /* Container Styling */
 .container {
     width: 50%;
-    margin: 20px auto; /* Centered on desktop */
+    margin: 20px 0 0 20px; /* Aligns to top-left corner */
     background-color: #d3d3d3;
     padding: 20px;
     border-radius: 10px;
